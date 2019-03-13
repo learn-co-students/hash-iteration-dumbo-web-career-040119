@@ -8,4 +8,12 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  winner = ""
+  passengers.each do |suite, name|
+    if name.start_with?('Am') 
+      winner = name
+    end
+  end
+  winner
 end
+
