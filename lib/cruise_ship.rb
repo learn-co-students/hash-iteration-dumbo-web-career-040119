@@ -7,5 +7,7 @@ def select_winner(passengers)
   suite_e: "Crumpet the Elf"
   }
 
-passengers.select{|i,n| i == :suite_a and n.start_with?("A")}.values.join
+
+
+
 end
