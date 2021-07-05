@@ -7,5 +7,11 @@
 # }
 
 def select_winner(passengers)
-  # add the code snippet here!
+  winner = ""
+  passengers.select do |suite, person|
+  	if suite[-1] == "a" && person[0] == "A"
+  		winner = person
+  	end
+  end
+  winner
 end
